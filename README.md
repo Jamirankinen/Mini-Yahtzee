@@ -1,69 +1,51 @@
-Mini Yahtzee 🎲
-A mobile dice game app built with React Native and Expo CLI, bringing the classic Yahtzee experience to your phone with smooth gameplay and a simple interface.
+# Mini Yahtzee 🎲
 
-👋 About Mini Yahtzee
-Mini Yahtzee is a mobile application recreating the popular dice game Yahtzee. Developed using React Native and Expo CLI, it provides a responsive, touch-friendly interface optimized for mobile devices.
+> A mobile-friendly Yahtzee game built with React Native and Expo CLI. Enjoy classic dice-rolling gameplay with smooth touch interactions and lightweight performance.
 
-🎯 Focus on intuitive gameplay and quick scorekeeping
+## 👋 About the App
+**Mini Yahtzee** is a modern re-creation of the classic dice game, designed for mobile devices. Developed using React Native and Expo, it offers an intuitive interface, smooth animations, and fun replayability.
 
-📱 Built for mobile platforms (iOS & Android) with Expo
+- 🎯 Focused on fast, interactive gameplay  
+- 📱 Optimized for mobile platforms (iOS & Android)  
+- 🎨 Clean and responsive UI using native styling  
+- 🚀 Lightweight and performant with no bloated dependencies
 
-🎨 Styled with CSS for clean and consistent UI
+## 🚀 Live Demo & Source
+- 📂 Source code: [GitHub repo](https://github.com/Jamirankinen/Mini-Yahtzee)  
+- 📱 To run: Use the Expo Go app on your phone to scan the QR code after starting the project
 
-🚀 Lightweight and performant with React Native components
+## 🧩 Key Features
+- **Classic Yahtzee Mechanics**: Roll dice, score combos, chase high totals  
+- **Animated Dice**: Smooth roll animations for satisfying gameplay  
+- **Mobile-First Design**: Built specifically for touch-based play  
+- **Scorecard Logic**: Auto-calculated bonuses and category scoring  
+- **Game Controls**: New game, reset, and score management functionality
 
-🚀 Live Demo & Source
-📂 Source code: GitHub repo
+## 🛠 Tech Stack
+- **Framework**: React Native  
+- **Development Tools**: Expo CLI  
+- **Language**: JavaScript (ES6+)  
+- **Styling**: Native styles via StyleSheet API
 
-⚠️ To run locally, Expo Go app is recommended
+## 🧭 Architecture & Code Highlights
+- Modular components for Dice, Scorecard, and Game Logic  
+- State management using React Hooks (`useState`, `useEffect`)  
+- Clear separation between UI and logic for maintainability  
+- Portrait-first layout tuned for small screens  
+- Minimal, focused dependencies for fast performance
 
-🧩 Key Features
-Classic Yahtzee gameplay with dice rolling and score calculation
+## 📈 Why This Project Matters
+This app demonstrates how to:  
+- Build a fully functional mobile app with React Native  
+- Translate complex game logic into clean JS code  
+- Manage interactive state with a lightweight approach  
+- Deliver a polished touch-friendly experience on real devices
 
-Mobile-first design for smooth touch interactions
-
-Scorecard management with automatic totals and bonuses
-
-Visual dice roll animations for engaging user experience
-
-Reset and new game functionality for replayability
-
-🛠 Tech Stack
-Framework: React Native
-
-Development tools: Expo CLI
-
-Styling: CSS (via React Native stylesheets)
-
-Language: JavaScript (ES6+)
-
-🧭 Architecture & Code Highlights
-Modular component structure (Dice, Scorecard, Game logic)
-
-State management using React hooks (useState, useEffect)
-
-Clear separation of UI and game logic for maintainability
-
-Responsive layout tuned for portrait mobile view
-
-Lightweight dependencies focused on core React Native features
-
-📈 Why This Project Matters
-Mini Yahtzee showcases:
-
-Building a mobile app with React Native and Expo
-
-Implementing classic game rules and logic in JS
-
-Creating responsive, touch-friendly interfaces
-
-Managing game state effectively in a small-scale app
-
-📝 Quick Setup
-bash
-Kopioi
-Muokkaa
+## ⏱️ Quick Setup
+```bash
 git clone https://github.com/Jamirankinen/Mini-Yahtzee.git
 cd Mini-Yahtzee
 npm install
 expo start
+```
+> 📱 Then open the Expo Go app and scan the QR code to run it on your device.
